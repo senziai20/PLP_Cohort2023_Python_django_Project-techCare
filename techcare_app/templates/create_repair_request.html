@@ -1,0 +1,7 @@
+<!-- techcare_app/templates/create_repair_request.html -->
+
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Submit</button>
+</form>
